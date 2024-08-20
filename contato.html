@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfólio Pessoal</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="index.html">Contato</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main></main>
+        <div class="background-container">
+            <section> <!-- Área de Conteúdo -->
+                <h2>Contato</h2>
+                <form action="https://api.staticforms.xyz/submit" method="POST">
+                    <label>Nome</label>
+                    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+                    <label>Mensagem</label>
+                    <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+
+                    <input type="hidden" name="accessKey" value="1462732f-87b7-4650-aa7c-ec116cd423e1">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+                </form>
+            </section>
+        </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
